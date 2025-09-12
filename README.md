@@ -39,3 +39,14 @@ core                    : 0
 VPE                     : 1
 VCED exceptions         : not available
 VCEI exceptions         : not available
+
+# Memory info:
+root@OpenWrt:/tmp# df -h
+Filesystem                Size      Used Available Use% Mounted on
+rootfs                   27.3M    816.0K     26.5M   3% /
+/dev/root                 3.0M      3.0M         0 100% /rom
+tmpfs                   124.7M     32.5M     92.2M  26% /tmp
+/dev/mtdblock6           27.3M    816.0K     26.5M   3% /overlay
+overlayfs:/overlay       27.3M    816.0K     26.5M   3% /
+tmpfs                   512.0K         0    512.0K   0% /dev
+/dev/mtdblock5            3.0M      3.0M         0 100% /mnt/mtdblock5
