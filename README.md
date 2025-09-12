@@ -4,6 +4,7 @@ Base stations userspace modification
 
 # Processor information
 
+```
 system type             : MT7621
 machine                 : Unknown
 processor               : 0
@@ -39,8 +40,11 @@ core                    : 0
 VPE                     : 1
 VCED exceptions         : not available
 VCEI exceptions         : not available
+```
 
 # FLASH info:
+
+```
 root@OpenWrt:/tmp# df -h
 Filesystem                Size      Used Available Use% Mounted on
 rootfs                   27.3M    816.0K     26.5M   3% /
@@ -50,8 +54,11 @@ tmpfs                   124.7M     32.5M     92.2M  26% /tmp
 overlayfs:/overlay       27.3M    816.0K     26.5M   3% /
 tmpfs                   512.0K         0    512.0K   0% /dev
 /dev/mtdblock5            3.0M      3.0M         0 100% /mnt/mtdblock5
+```
 
 # MEM info:
+
+```
 root@OpenWrt:/tmp# cat /proc/meminfo
 MemTotal:         255404 kB
 MemFree:          169452 kB
@@ -86,3 +93,4 @@ Committed_AS:      65304 kB
 VmallocTotal:    1048372 kB
 VmallocUsed:        1680 kB
 VmallocChunk:    1041828 kB
+```
