@@ -94,3 +94,10 @@ VmallocTotal:    1048372 kB
 VmallocUsed:        1680 kB
 VmallocChunk:    1041828 kB
 ```
+
+# REQUIREMENTS FOR building 
+
+```
+autoconf
+build_essentials? 
+```

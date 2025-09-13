@@ -1,2 +1,4 @@
 mipsel_toolchain
 *.tar.xz
+bin/*
+!bin/.gitkeep
