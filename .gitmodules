@@ -1,3 +1,9 @@
 [submodule "openwrt"]
 	path = openwrt
 	url = https://github.com/openwrt/openwrt
+[submodule "strace"]
+	path = strace
+	url = https://github.com/strace/strace
+[submodule "socat"]
+	path = socat
+	url = https://github.com/lilydjwg/socat
